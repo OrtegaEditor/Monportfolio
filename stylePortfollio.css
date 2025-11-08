@@ -1,0 +1,142 @@
+body {
+    font-size: 13px;
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: normal;
+    text-align: center;
+}
+
+header {
+    height: 100px;
+}
+
+footer {
+    height: 80px;
+    padding-top: 30px;
+    text-align: center;
+    border-top: 2px solid rgb(34, 33, 33);
+    background-color: grey;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+nav {
+    width: 100%;
+    background-color: rgba(27, 23, 42, 0.909);
+    height: 80px;
+    transition: transform 1s ease;
+}
+
+nav li {
+    float: left;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 20px 30px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 15px;
+    display: inline-block;
+}
+
+.table {
+    display: table;
+    margin: auto;
+}
+
+.menu-ind:hover {
+    border-top: 5px solid #4c8;
+    background-color: rgb(64, 200, 130, 0.15);
+    transform: scale(1.1);
+}
+
+.menu-exp :hover {
+    border-top: 5px solid rgb(226, 226, 86);
+    background-color: rgb(241, 211, 79, 0.15);
+    transform: scale(1.1);
+}
+
+.menu-hob :hover {
+    border-top: 5px solid rgb(64, 177, 64);
+    background-color: rgb(0, 112, 92, 0.15);
+    transform: scale(1.1);
+}
+
+.menu-con :hover {
+    border-top: 5px solid rgba(204, 59, 6, 0.85);
+    background-color: rgb(241, 211, 79, 0.15);
+    transform: scale(1.1);
+}
+
+footer:hover {
+    box-shadow: 0px 0px 7px rgb(230, 217, 217);
+}
+
+article .left img {
+    width: 150px;
+    height: 200px;
+    float: left;
+    margin-right: 500px;
+}
+
+.parcours,
+.recommendation,
+.competences {
+    width: 100%;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    min-height: 300px;
+}
+
+.sec {
+    margin: 0px 10%;
+}
+
+.right {
+    float: left;
+    width: 80%;
+}
+
+.left {
+    float: left;
+    width: 20%;
+}
+
+.cleft,
+.cright,
+.sous-left,
+.sous-right {
+    width: 50%;
+    float: left;
+}
+
+
+/* .sec ::after,
+.exp::after,
+.rec ::after {
+    content: "";
+    display: table;
+    clear: both;
+} */
+
+@media screen and (max-width :780px) {
+    header {
+        height: 50px;
+    }
+    h1 {
+        font-size: 20px;
+        margin: 28px 0px 0px 0px;
+    }
+    nav li a {
+        font-size: 10px;
+        padding: 10px;
+    }
+    nav li :hover a {
+        padding: 5px 10px 10px 10px;
+    }
+}
